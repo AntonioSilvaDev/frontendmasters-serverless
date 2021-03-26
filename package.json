@@ -2,7 +2,8 @@
   "name": "frontendmasters-serverless",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "ntl_dev": "ntl dev"
   },
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "devDependencies": {
@@ -17,5 +18,11 @@
   },
   "license": "CC-BY-NC-SA-4.0",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "description": "This is the source code for a Frontend Masters course with Jason Lengstorf about serverless functions.",
+  "bugs": {
+    "url": "https://github.com/jlengstorf/frontendmasters-serverless/issues"
+  },
+  "homepage": "https://github.com/jlengstorf/frontendmasters-serverless#readme",
+  "main": ".eleventy.js"
 }
